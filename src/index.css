@@ -1,0 +1,27 @@
+.inner img {
+  transition: all 1.5s ease;
+}
+
+.inner:hover img {
+  transform: scale(1.2);
+}
+
+.inner {
+  overflow: hidden;
+}
+
+.active {
+  font-weight: bold;
+  border-bottom: 2px solid yellow;
+}
+
+@media (max-width: 991px) {
+  .active {
+    font-weight: bold;
+    border-bottom: none;
+  }
+}
+
+.main-view {
+  min-height: calc(100vh - 115px);
+}
